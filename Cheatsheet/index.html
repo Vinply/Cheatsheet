@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+	<header>
+		<nav class="nav1">
+		<a href="C:\Users\Acer\Desktop\Cartelle\Coding\Portfolio\Emil Front-End dev.html" target="_blank">About me -</a>
+		<a href="https://zellwk.com/blog/9-important-css-properties-you-must-know/" target="_blank"> Source</a>
+		</nav>
+		<h1 class="courier">Common CSS properties</h1>
+	</header>
+	<br>
+	<br>
+	<main>
+		<article class="common-properties" id="common-properties">		
+			<figure>
+				<img src="https://www.effettoundici.it/wp-content/uploads/2019/07/1_OFsc0SD55jhi8cjo7aCA4w.jpg">
+			</figure>
+			<article class="display">
+			<h1 class="heading">Display</h1>
+			  <p>Display takes on many different values, but only 4 are most commonly used.</p><br>
+			  	<p class="example">div {<br>
+    display: block;<br>
+    display: inline-block;<br>
+    display: inline;<br>
+    display: none;<br>
+}
+			</p>
+			<ul class="display-ul">
+				<li><p><strong class="stronger">block:</strong> Many HTML elements are set to this mode of display by browsers' stylesheets. They include <strong>&lt;div&gt;</strong>, <strong>&lt;ul&gt;</strong> and text blocks like <strong>&lt;p&gt;</strong>. Block level elements by default take up as much space as they can, and they cannot be placed on the same horizontal line with any other display modes, include other block elements. (Exception: unless they are floated).
+				<br>
+				With block elements, you gain the ability to alter the element’s width and height to your liking, which is why they are used for layouts</p></li>
+				<br>
+				<li><p><strong class="stronger">inline:</strong>The inline mode wraps many HTML elements tighty around them and is the defaults for all elements that are not specified with any other display values. Elements can be placed side by side on the same line as inline elements. Think about the <strong>&lt;strong&gt;</strong> tag that bolds elements, the <strong>&lt;em&gt;</strong> tag that creates italics and <strong>&lt;a&gt;</strong> tags that allow you to link to other web pages. These are all examples of inline elements. You will not be able to change an inline element’s width and height.</p></li>
+				<li><p><strong class="stronger">inline-block:</strong>This is one display value that combines the properties of both block elements and inline elements. You get the ability to set a height and width, and the element can appear on the same horizontal line as other elements.</p></li>
+				<li><p><strong class="stronger">none:</strong>Display none hides the element from the website and it will not be shown visually. This is very useful for CSS Dropdown menus where additional options appear when you hover on navigation menus. The rationale is that elements are set to a display value of none initially, and the display value is changed to block on hover.</p></li>
+				<figure>
+					<img src="https://zellwk.com/images/2013/05/display-values.jpg">
+				</figure>
+			</ul>
+		</article>
+		<br>
+		<article class="width-height">
+			<h1 class="heading">Width and Height</h1>
+			<p>Width and height properties are used closely with display:block and display:inline to set the width and height of HTML elements while creating a website. Common units units for Width and Height are:</p>
+			<ul>
+				<li><p><strong class="stronger">px</strong> - Pixels</p></li>
+				<li><p><strong class="stronger">em</strong> - A unit of measurement, where 1 em = current font size.</p></li>
+				<li><p><strong class="stronger">rem</strong> - Root em. Same measurement as em, but makes life much easier without the inheritance problem</p></li>
+				<li><p><strong class="stronger">%</strong> - Percentages</p></li>
+				<li><p><strong class="stronger">auto</strong> - highly useful unit, will explain below</p></li>
+			</ul>
+			<p>Other units of measurement can be found at the <a href="https://www.w3schools.com/cssref/css_units.asp" target="_blank">W3 Schools website</a>. If you’re wondering about the difference between px, em and rem, check out this great article on <a href="http://snook.ca/archives/html_and_css/font-size-with-rem" target="_blank">font sizing with rem by Jonathan Snook</a><br><br>
+
+Extremely useful properties like max-width, min-width, max-height and min-height come into play as well when you’re making responsive websites. Here’s one example of how auto and max-width can be used to make sure images fit tightly and snugly into available space:</p>
+			<p class="example">img {<br>
+    max-width: 100%;<br>
+    height: auto;<br>
+}</p>
+		</article>
+		<article class="margin-padding">
+			<h1 class="heading">Margin and Padding</h1>
+			<p>Margins are paddings are things that will definitely appear. Knowing how these things work will be extremely beneficial when writing CSS.<br>
+
+Margins and Paddings dictate the spaces between elements on your website. They are very similar and have the same units as Width and Height mentioned above.<br>
+
+The only difference between margins and paddings is the area the exert control over. Margins affect the area outside of borders whereas paddings affect areas inside the border. It is useful to refer to the box model below:</p>
+			<figure>
+				<img src="https://zellwk.com/images/2013/05/box-model.jpg">
+			</figure>
+			<p class="center">Ordinarily, margins are written in this manner:</p>
+			<br>
+			<p class="example">
+			div{<br>
+    margin-top: 20px;<br>
+    margin-bottom: 20px;<br>
+    margin-right: 10px;<br>
+    margin-left: 10px<br>
+}
+			</p>
+			<p>
+				They can be written in shorthand to simplify the lines of codes and make it easier to read. In fact, shorthands are the standard practice and you should know them. Here’s a quick explanation:
+			</p>
+			<p class="example-1">
+				div{
+   margin: 20px 10px 20px 10px;<br>
+   /*  This shorthand refers to TOP, Right, Bottom, Left. Its<br> easier to picture a clock at 12, 3, 6 and 9 respectively */<br>
+<br>
+   margin: 20px 10px 20px;<br>
+   /* This refers to Top, Left and Right, Bottom */<br>
+<br>
+   margin: 20px 10px;<br>
+   /* This refers to Top and Bottom, Left and Right */<br>
+<br>
+   margin: 20px;<br>
+   /* This refers to 20px worth of margin on all 4 sides */
+}
+			</p>
+			<p><strong class="stronger">Extra tip:</strong>margins with auto on the left and right are used to center an element with a display value of block. Its written simply as:</p>
+			<p class="example">div {<br>
+   margin: 0 auto;<br>
+}</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+		<footer>
+			
+			<br>
+			<br>
+			
+			<p class="center">
+			Article made by Emil Dodangeh
+		</p>
+		
+			
+		
+			Contact me: 
+			
+			<section class="contacs">
+			  <section class="email1">
+			  	
+			  	<a href="mailto:emildodangeh@gmail.com"><img class="email" src="https://i1.wp.com/www.calellabags.com/wp-content/uploads/2019/06/email-hd-png-best-hd-mail-icon-transparent-vector-file-free-1969.png?fit=1200%2C857&ssl=1" ></a>
+			  </section>
+			  <br>
+			  <br>
+			  <br>
+			  <p class="center">
+			  &copy 2020 Emil Dodangeh
+			</p>
+			
+		
+			</footer>
+		
+		
+			
+			
+	</main>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body{
+	font-family: "monsterrat";
+	background-color: lightgray;
+
+
+}
+header{
+	text-align: center;
+}
+a{
+	color: maroon;
+	text-decoration: none;
+	font-family: "arial";
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: courier
+}
+.properties-head{
+	text-align: center;
+	font-size: 30px;
+}
+img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+.nav1{
+	text-align: right;
+	font-size: 25px;
+}
+.nav1 a{
+	color: darkslateblue;
+}
+.courier{
+	font-family: courier
+}
+.heading{
+	font-size: 35px;
+	font-family: courier;
+}
+.example{
+	background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUVFRUVFRUVFRUVFRUVFRUXFxUVFRUdHSggGB0lHRcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQYFDgUFGisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAWEAEBAQAAAAAAAAAAAAAAAAAAARH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AyYAAAAAAAAAAAAAAAACgAAUAAoAAABAAAAAAAAAACgAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAIAAAAAAAAAAAAACwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAWIlBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAEAAAAAAKAAAAAAAAAAAAAAAAAAAAACoAAAAAAAQAH//Z);
+	color: white;
+	font-family: courier;
+	background-size: 20%;
+	background-repeat: no-repeat;
+
+
+}
+strong.stronger{
+	font-size: 25px;
+}
+.nav2{
+	text-align: center;
+	list-style-position: inside;
+}
+p, .index-head{
+	font-family: montserrat;
+}
+.monsterrat-c{
+	font-family: monsterrat;
+}
+nav{
+	font-family: monsterrat;
+}
+.center{
+	text-align: center;
+}
+.example-1{
+	background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUVFRUVFRUVFRUVFRUVFRUXFxUVFRUdHSggGB0lHRcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQYFDgUFGisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAWEAEBAQAAAAAAAAAAAAAAAAAAARH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AyYAAAAAAAAAAAAAAAACgAAUAAoAAABAAAAAAAAAACgAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAIAAAAAAAAAAAAACwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAWIlBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAEAAAAAAKAAAAAAAAAAAAAAAAAAAAACoAAAAAAAQAH//Z);
+	color: white;
+	font-family: courier;
+	background-size: 45%;
+	background-repeat: no-repeat;
+}
+footer{
+
+	background-color: darkslateblue;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: raleway;
+	color: white;
+}
+.email{
+	width: 37px;
+	height: 25px;
+	position: absolute;
+    left: 50%;
+
+  
+    margin-left: -640px;
+    margin-top: -15px;
+    
+
+}
+
+
+
+
+.email1{
+	display: inline-block;
+	
+}
